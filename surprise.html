@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise! - Mehak's Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="surprise-container">
+        <div class="fireworks"></div>
+        
+        <div class="surprise-content" data-aos="zoom-in">
+            <h1 class="surprise-title">🎉 SURPRISE! 🎉</h1>
+            
+            <div class="photo-collage">
+                <div class="collage-photo p1"><img src="m1.jpg" alt="Mehak"></div>
+                <div class="collage-photo p2"><img src="m2.jpg" alt="Mehak"></div>
+                <div class="collage-photo p3"><img src="m3.jpg" alt="Mehak"></div>
+                <div class="collage-photo p4"><img src="m4.jpg" alt="Mehak"></div>
+                <div class="collage-photo p5"><img src="m5.jpg" alt="Mehak"></div>
+                <div class="collage-photo p6"><img src="m6.jpg" alt="Mehak"></div>
+                <div class="collage-photo p7"><img src="m7.jpg" alt="Mehak"></div>
+                <div class="collage-photo p8"><img src="1.jpg" alt="Us"></div>
+                <div class="collage-photo p9"><img src="3.jpg" alt="Us"></div>
+                <div class="collage-photo p10"><img src="4.jpg" alt="Us"></div>
+            </div>
+            
+            <div class="final-message">
+                <h2>Dear Mehak,</h2>
+                <p class="message-text">
+                    As we reach the end of this journey through our memories and moments, I want you to know one thing - 
+                    <strong>you are extraordinary</strong>.
+                </p>
+                
+                <p class="message-text">
+                    This website is just a small token of appreciation for the incredible person you are. 
+                    You've brought so much light, laughter, and love into my life, and words can barely express 
+                    how grateful I am to call you my best friend.
+                </p>
+                
+                <p class="message-text">
+                    On your birthday, I want you to remember:
+                </p>
+                
+                <ul class="final-wishes">
+                    <li>🌟 You are stronger than you think</li>
+                    <li>💫 You are more talented than you know</li>
+                    <li>✨ You are loved more than you can imagine</li>
+                    <li>🌈 You deserve every beautiful thing life has to offer</li>
+                    <li>💖 You make this world a better place just by being in it</li>
+                </ul>
+                
+                <p class="message-text big-text">
+                    Thank you for being YOU.<br>
+                    Thank you for being my friend.<br>
+                    Thank you for existing.
+                </p>
+                
+                <div class="birthday-cake-big">
+                    🎂
+                </div>
+                
+                <p class="final-line">
+                    Happy Birthday, Mehak!<br>
+                    Here's to another year of amazing adventures,<br>
+                    unforgettable memories, and unconditional friendship! 🎊
+                </p>
+                
+                <p class="signature-final">
+                    With endless love and appreciation,<br>
+                    Your Best Friend Forever ❤️
+                </p>
+                
+                <button class="celebrate-btn" onclick="startCelebration()">
+                    Click to Celebrate! 🎆
+                </button>
+            </div>
+        </div>
+        
+        <div class="navigation final-nav">
+            <a href="wishes.html" class="nav-btn">← Back</a>
+            <a href="index.html" class="nav-btn">Start Over 🔄</a>
+        </div>
+    </div>
+    
+    <canvas id="fireworksCanvas"></canvas>
+    
+    <!-- Slideshow Modal -->
+    <div id="slideshowModal" class="slideshow-modal">
+        <div class="slideshow-container">
+            <button class="close-slideshow" onclick="closeSlideshow()">✕</button>
+            
+            <!-- Floating hearts and particles -->
+            <div class="floating-hearts" id="floatingHearts"></div>
+            <div class="sparkles-container" id="sparklesContainer"></div>
+            
+            <div class="slideshow-wrapper">
+                <img id="slideshowImage" class="slideshow-image" src="" alt="">
+            </div>
+            <div class="slideshow-caption" id="slideshowCaption"></div>
+            <div class="slideshow-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+    </div>
+    
+    <audio id="backgroundMusic" src="song.mp3"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
